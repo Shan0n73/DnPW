@@ -13,6 +13,10 @@ function initNavToggle() {
 // ===== Konfirmasi hapus =====
 function initHapusConfirm() {
   document.addEventListener("click", function (e) {
+
+    // JS6 - Lat 4 - Uji delegasi event
+    console.log(e.target);
+    
     const btn = e.target.closest(".btn-hapus");
     if (!btn) return;
 
