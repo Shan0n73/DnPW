@@ -39,6 +39,7 @@
                             <th>Pengarang</th>
                             <th>Tahun</th>
                             <th>Stok</th>
+                            <th>Kategori</th> <!--JS6 - Lat 3 - tambah kategori-->>
                             <th>Aksi</th>
                         </tr>
                     </thead>
@@ -58,7 +59,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
         // Panggil fungsi generik dengan passing URL file dan nama-nama kuncinya
-        muatDataGenerik("../data/buku.json", ["judul", "pengarang", "tahun", "stok"]);
+        muatDataGenerik("../data/buku.json", ["judul", "pengarang", "tahun", "stok", "kategori"]);
     });
     </script>
 </body>
