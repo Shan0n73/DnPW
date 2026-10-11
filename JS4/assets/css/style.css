@@ -1,5 +1,5 @@
 
-/* ==== Reset n Base ====*
+/* ==== Reset n Base ====*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -22,7 +22,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* ==== Header n Navbar (Flexbox) ==== 
+/* ==== Header n Navbar (Flexbox) ==== */
 header {
     background-color: #CF3476;
     color: #fff;
@@ -48,7 +48,7 @@ header nav a {
     font-weight: 500;
 }
 
-/* ==== Main Layout ==== *
+/* ==== Main Layout ==== */
 main {
     max-width: 1000px;
     margin: 2rem auto;
@@ -68,7 +68,7 @@ section h2 {
     color: #CF3476;
 }
 
-/* ==== Kartu Statistik (CSS Grid)====*
+/* ==== Kartu Statistik (CSS Grid)====*/
 main section:nth-of-type(2) {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -94,7 +94,7 @@ main section:nth-of-type(2) article p {
     color: #741d8a;
 }
 
-/* ===== Tabel ===== *
+/* ===== Tabel ===== */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -144,7 +144,7 @@ td button {
     color: #fff;
 }
 
-/* ===== Form ===== *
+/* ===== Form ===== */
 form p {
     margin-bottom: 1rem;
 }
@@ -180,7 +180,7 @@ form button[type="submit"]:hover {
     background-color: #164869;
 }
 
-/* ===== Footer ===== *
+/* ===== Footer ===== */
 footer {
     text-align: center;
     padding: 1.25rem;
