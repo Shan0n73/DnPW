@@ -34,6 +34,8 @@ function initEditConfirm() {
         const form = e.target;
         if (form.id !== "form-edit") return;
 
+        const row = form.closest("tr");
+        const nama = row ? row.querySelector("td")?.textContent : "data ini";
         const yakin = confirm("Apakah Anda yakin ingin menyimpan perubahan data ini?");
         if (!yakin) {
             e.preventDefault();
